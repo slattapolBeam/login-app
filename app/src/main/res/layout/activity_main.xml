@@ -4,7 +4,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:padding="24dp">
 
     <!-- App Icon -->
@@ -38,6 +37,7 @@
     <!-- Username -->
     <EditText
         android:id="@+id/etUsername"
+        android:maxWidth="360dp"
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:layout_marginTop="24dp"
@@ -58,6 +58,7 @@
     <!-- Password -->
     <EditText
         android:id="@+id/etPassword"
+        android:maxWidth="360dp"
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:layout_marginTop="12dp"
@@ -77,6 +78,7 @@
     <!-- Forgot password -->
     <TextView
         android:id="@+id/tvForgotPassword"
+        android:maxWidth="360dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -92,6 +94,7 @@
     <!-- Sign in -->
     <Button
         android:id="@+id/btnSignIn"
+        android:maxWidth="360dp"
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:layout_marginTop="24dp"
@@ -118,6 +121,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvForgotPassword" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
