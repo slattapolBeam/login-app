@@ -6,6 +6,7 @@
     <string name="hint_password">Password</string>
     <string name="forgot_password">Forgot password?</string>
     <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_out">Sign Out</string>
     <string name="toast_missing_fields">Please enter username and password</string>
     <string name="toast_signed_in">Signed in</string>
 </resources>
