@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProfileCardApp</string>
+    <string name="cd_app_icon">App icon</string>
+    <string name="login_title">Sign in</string>
+    <string name="hint_username">Username or email</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="toast_missing_fields">Please enter username and password</string>
+    <string name="toast_signed_in">Signed in</string>
+</resources>
