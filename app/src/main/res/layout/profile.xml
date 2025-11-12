@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCFC"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/space_24">
+
+    <!-- รูปโปรไฟล์ -->
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_marginBottom="@dimen/space_16"
+        android:background="@drawable/bg_avatar_circle"
+        android:clipToOutline="true"
+        android:contentDescription="@string/desc_profile_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_pic" />
+
+    <!-- ชื่อ -->
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_4"
+        android:text="@string/profile_name"
+        android:textColor="@color/text_primary"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- สาขา/ตำแหน่ง -->
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_major"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp" />
+
+    <!-- วิทยาลัย -->
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_4"
+        android:text="@string/profile_major2"
+        android:textColor="@color/text_secondary"
+        android:textSize="16sp" />
+
+    <!-- ปุ่ม ติดต่อฉัน -->
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8"
+        android:backgroundTint="@color/btn_primary"
+        android:paddingLeft="@dimen/space_24"
+        android:paddingRight="@dimen/space_24"
+        android:text="@string/btn_contact"
+        android:textColor="@color/white"
+        app:cornerRadius="50dp" />
+</LinearLayout>
