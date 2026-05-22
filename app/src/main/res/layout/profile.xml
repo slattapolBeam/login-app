@@ -10,16 +10,17 @@
     android:padding="@dimen/space_24">
 
     <!-- รูปโปรไฟล์ -->
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imgProfile"
         android:layout_width="@dimen/avatar_size"
         android:layout_height="@dimen/avatar_size"
         android:layout_marginBottom="@dimen/space_16"
-        android:background="@drawable/bg_avatar_circle"
-        android:clipToOutline="true"
         android:contentDescription="@string/desc_profile_image"
         android:scaleType="centerCrop"
-        android:src="@drawable/img_profile" />
+        android:src="@drawable/img_profile"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.Circle"
+        app:strokeColor="@color/avatar_ring"
+        app:strokeWidth="2dp" />
 
     <!-- ชื่อ -->
     <TextView
